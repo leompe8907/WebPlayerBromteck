@@ -1,0 +1,42 @@
+.Profile-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    .formProfile
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 20em;
+        width: 50%;
+    }
+    .content-container{
+        display: inline-flex;
+        justify-content: space-around;
+        width: 90%;
+        height: 5em;
+        align-items: center;
+        .formcontainer{
+            height: 100%;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .labelcontainer{
+                margin-right: 10px;
+                color: aliceblue;
+            }
+        }
+    }
+    .imagenes-container{
+        width: 35em;
+        height: 20em;
+        margin: 20mm 0;
+            .profileImage{
+                margin: 6px;
+            }
+    }
+}
